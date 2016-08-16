@@ -1,0 +1,21 @@
+.panel {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 6px solid #174954;
+  background-color: #ebdada;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+.messageTitle {
+  display: inline;
+  margin-right: 5px;
+  color: #00802b;
+}
+
+.message {
+  display: inline;
+  color: #00802b;
+}

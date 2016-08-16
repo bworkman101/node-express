@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  
+  .panel
+    .title Current time in milliseconds since epoch
+    .messageTitle Result:
+    #epochTime.message
+    .doAction
+      button(id='refreshTimeBtn') Refresh
+
+  .panel
+    .title Fibonacci Sequence
+    .input
+      label(for='iterationsTxt') Number of Iterations
+      input(id='iterationsTxt' type='text' alt='Number of Iterations')
+    .messageTitle Result:
+    #fibonacciResult.message
+    .doAction
+      button(id='fibonacciBtn') Run Iterations
